@@ -1,0 +1,24 @@
+﻿2018-06-23 02:09:16 -> System.Runtime.InteropServices.ExternalException (0x800401D0): 所请求的剪贴板操作失败。
+   在 System.Windows.Forms.Clipboard.ThrowIfFailed(Int32 hr)
+   在 System.Windows.Forms.Clipboard.SetDataObject(Object data, Boolean copy, Int32 retryTimes, Int32 retryDelay)
+   在 System.Windows.Forms.Clipboard.SetText(String text, TextDataFormat format)
+   在 System.Windows.Forms.Clipboard.SetText(String text)
+   在 AntPPT.StartDealPPT.AutoClick(String tempPPTPath, String pptPath) 位置 F:\Private\蚂蚁办公\AntPPT\AntPPT\StartDealPPT.cs:行号 578
+2018-06-23 02:09:18 -> System.Runtime.InteropServices.ExternalException (0x800401D0): 所请求的剪贴板操作失败。
+   在 System.Windows.Forms.Clipboard.ThrowIfFailed(Int32 hr)
+   在 System.Windows.Forms.Clipboard.SetDataObject(Object data, Boolean copy, Int32 retryTimes, Int32 retryDelay)
+   在 System.Windows.Forms.Clipboard.SetText(String text, TextDataFormat format)
+   在 System.Windows.Forms.Clipboard.SetText(String text)
+   在 AntPPT.StartDealPPT.AutoClick(String tempPPTPath, String pptPath) 位置 F:\Private\蚂蚁办公\AntPPT\AntPPT\StartDealPPT.cs:行号 595
+2018-06-23 02:14:33 -> System.Runtime.InteropServices.ExternalException (0x800401D0): 所请求的剪贴板操作失败。
+   在 System.Windows.Forms.Clipboard.ThrowIfFailed(Int32 hr)
+   在 System.Windows.Forms.Clipboard.SetDataObject(Object data, Boolean copy, Int32 retryTimes, Int32 retryDelay)
+   在 System.Windows.Forms.Clipboard.SetText(String text, TextDataFormat format)
+   在 System.Windows.Forms.Clipboard.SetText(String text)
+   在 AntPPT.StartDealPPT.AutoClick(String tempPPTPath, String pptPath) 位置 F:\Private\蚂蚁办公\AntPPT\AntPPT\StartDealPPT.cs:行号 578
+2018-06-23 02:14:35 -> System.Runtime.InteropServices.ExternalException (0x800401D0): 所请求的剪贴板操作失败。
+   在 System.Windows.Forms.Clipboard.ThrowIfFailed(Int32 hr)
+   在 System.Windows.Forms.Clipboard.SetDataObject(Object data, Boolean copy, Int32 retryTimes, Int32 retryDelay)
+   在 System.Windows.Forms.Clipboard.SetText(String text, TextDataFormat format)
+   在 System.Windows.Forms.Clipboard.SetText(String text)
+   在 AntPPT.StartDealPPT.AutoClick(String tempPPTPath, String pptPath) 位置 F:\Private\蚂蚁办公\AntPPT\AntPPT\StartDealPPT.cs:行号 595
