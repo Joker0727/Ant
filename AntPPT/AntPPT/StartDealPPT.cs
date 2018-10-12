@@ -163,7 +163,7 @@ namespace AntPPT
             RECT rt = new RECT();
 
             string pptTitle = "" + fileNameWithExtension + " - Microsoft PowerPoint";
-            IntPtr m_hGameWnd = User32API.FindWindow(pptClassName, null);
+            IntPtr m_hGameWnd = User32API.FindWindow(null, pptTitle);
             if (m_hGameWnd == IntPtr.Zero)
             {
                 ppt = new PPTHelper();
@@ -179,7 +179,7 @@ namespace AntPPT
             }
             Thread.Sleep(1000 * 3);
             pptTitle = "" + fileNameWithExtension + " - Microsoft PowerPoint";
-            m_hGameWnd = User32API.FindWindow(pptClassName, null);
+            m_hGameWnd = User32API.FindWindow(null, pptTitle);
             User32API.SwitchToThisWindow(m_hGameWnd, true);
             //User32API.GetWindowRect(m_hGameWnd, out rt);
             User32API.MoveWindow(m_hGameWnd, 0, 0, 1300, 800, true);//拖动到左上角
@@ -649,7 +649,7 @@ namespace AntPPT
             KillProcess("POWERPNT");
 
             string pptTitle = "" + fileNameWithExtension + " - Microsoft PowerPoint";
-            IntPtr m_hGameWnd = User32API.FindWindow(pptClassName, null);
+            IntPtr m_hGameWnd = User32API.FindWindow(null, pptTitle);
             if (m_hGameWnd == IntPtr.Zero)
             {
                 ppt = new PPTHelper();
@@ -667,13 +667,13 @@ namespace AntPPT
             }
 
             pptTitle = "" + fileNameWithExtension + " - Microsoft PowerPoint";
-            m_hGameWnd = User32API.FindWindow(pptClassName, null);
+            m_hGameWnd = User32API.FindWindow(null, pptTitle);
             User32API.SwitchToThisWindow(m_hGameWnd, true);
             //User32API.GetWindowRect(m_hGameWnd, out rt);
             User32API.MoveWindow(m_hGameWnd, 0, 0, 1300, 800, true);//拖动到左上角
 
-            MouseClick(570, 50);
-            MouseClick(80, 95);
+            MouseClick(570, 50);//点击ispring
+            MouseClick(80, 80);//点击publish
             //Clipboard.Clear();
             Thread.Sleep(1000);
             pptTitle = "Checking for updates";
